@@ -1,5 +1,5 @@
 # Infrastructure as Code
-This project is a skeleton for infrastructure as code implementations. You can use it to quickly bootstrap your own infrastructure as code projects.
+This project is a skeleton for infrastructure as code implementations. You can use it to quickly bootstrap your own infrastructure as code projects. Inspired from abhishektiwari
 
 The seed contains a sample infrastructure as code implementation which includes,
 
@@ -7,10 +7,8 @@ The seed contains a sample infrastructure as code implementation which includes,
 - Terraform, CloudFormation, YAML and Python Scripts for infrastructure provisioning
 - Puppet/Chef for configuration management 
 - Docker for container management
-- Fabric/Capistrano for remote execution and deployment
 - Vagrant for local testing and development using Puppet/Chef solo
-- Jenkins for continuous integration of infrastructure  
-- A hello world example to provision and configure a Nodejs application
+- Shared for scripted install of provisioning serivces, puppet and continuous integration of infrastructure  
 
 # Prerequisites
 
@@ -36,18 +34,6 @@ git pull origin master
 
 You will need to install Virtualbox and Vagrant.
 
-
-## Python Virtualenv
-
-- Python `2.7.x` and `pip` installed on your local machine
-- Once you have Python and `pip` please install `virtualenv` as described here
-
 # I don't want ...
-I don't want some of the folders in this seed, well just add folder name or pattern in `.gitignore`
+I don't want some of the folders in this seed, well just add folder name or pattern in `.gitignore` - Love to understand how this works. Create local repo; create .gitignore; clone orginal repo?
 
-# To Do
-
-- Ansible/Salt for configuration management
-- MEAN stack as an example 
-- LAMP stack as an example
-- .Net stack as an example
